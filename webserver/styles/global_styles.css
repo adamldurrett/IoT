@@ -1,5 +1,9 @@
-.global-nav-bar {
-	width:200px;
+.global-body{
+	height: 100vh;
+	margin: 0;
+	background-image: linear-gradient(#0a1d47, #00df38, #00d4db, #07cfe6, #07cfe6, #0a1d47);
+	display: flex;
+	background-attachment:fixed;
 }
 
 .global-nav-img {
@@ -7,3 +11,37 @@
 	height:100px;
 }
 
+.global-tbl {
+	background-color: aliceblue;
+	border: 4px;
+	border-color: rgba(0, 146, 97, 0.705);
+	border-style: solid;
+	font-family: Helvetica;
+	font-size: 150%;
+	min-width: 20em;
+	width:80%;
+	vertical-align: top;
+	box-shadow: 0 1px 0 1px rgba(240, 248, 255, 0.877);
+	border-radius: .2em;
+
+	
+}
+
+.global-tbl-head {
+	background-color: #000000;
+	color: rgb(240, 248, 255);
+	font-weight: bold;
+	font-size: 1.5em;	
+}
+
+.global-tbl-col {
+	border: 1px; 
+	border-color:black; 
+	border-style:double;
+	vertical-align: top;
+}
+
+.global-button-shrinkable {
+	width:50%;
+	min-width: 50px;
+}
