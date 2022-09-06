@@ -38,3 +38,5 @@
 *.jpg
 *.png
 *.gif
+
+**/fftest
